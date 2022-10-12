@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #111;
+    line-height: 1.5em;
+    background: #F0EFEB;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+aside {
+    float: left;
+    width: 26%;
+    text-align: justify;
+}
+
+.sidebar {
+    background: #E7E4DB;
+    display: block;
+    padding: 5px 14px;
+    position: relative;
+    color: #343434;
+    margin-top: -6px;
+}
+
+article {
+    padding: 5px 20px;
+    display: block;
+    float: left;
+    width: 69%;
+    text-align: justify;
+    background: #fff;
+}
+
+.roxo {
+    border-bottom: 1px solid;
+    padding: 5px 0px;
+    color: #212121;
+    margin-bottom: -5px;
+}
+
+.roxo::first-letter {
+    color: #A5A58D;
+}
+
+h3 {
+    text-align: left;
+    margin-bottom: -8px;
+    color: #212121;
+}
+
+.greencard {
+    color: #343434;
+    background: #a5a58d;
+    padding: 3px;
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+.foto {
+    width: 100%;
+}
+
+.profissao {
+    background: #A5A58D;
+    padding: 5px 10px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 100%;
+    margin: -20px 0px -5px -20px;
+    color: #fff;
+}
+
+.titulo {
+    background: #212121;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+}
