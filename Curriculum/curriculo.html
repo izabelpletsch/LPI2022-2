@@ -72,6 +72,10 @@
 
     .foto {
         width: 100%;
+        border-radius: 5px;
+        border: 5px solid #fff;
+        outline: 1px solid #444;
+        outline-offset: -4px;
     }
 
     .profissao {
@@ -89,13 +93,24 @@
         padding: 10px;
         color: #fff;
         width: 100%;
+        margin-top: 10px;
     }
+    
+    #gh a {
+    	background: #222;
+    	border-radius: 5px;
+    	padding: 3px;
+    	text-decoration: none;
+    	color: #fff;
+   }
+    
 </style>
 
 <body>
     <main>
         <aside>
             <div class="sidebar">
+            <img class="foto" src="izabel.jpeg"/>
             <h1 class="titulo">Izabel Cristina Pletsch</h1>
                 <p><strong>Endereço</strong> Rua Secondo João Andreazza, nº 20, Bairro São Camilo, Itu - SP</br></p>
 
@@ -103,17 +118,11 @@
                 <p style="line-height: 1.8em"><strong class="greencard">E-mail</strong> izabelpletsch@gmail.com </br>
                 <strong class="greencard">Celular</strong> (11) 9559-9559</br>
                 <strong class="greencard">Telefone fixo</strong> (11) 4002-8922</p>
-
-                <h3>Idiomas</h3>
-                <ul>
-                    <li>Inglês Intermediário</li>
-                    <li>Espanhol Básico</li>
-                </ul>
                     
                 <h3>Linguagens de Programação</h3>
                 <p>HTML, CSS, JavaScript, C, C#, SQL e PHP.</p>
-                <h3>Conhecimentos Gerais</h3>
-                <p>Pacote Office Avançado</p>
+                
+            <p><strong id="gh"><a href="https://github.com/izabelpletsch">https://github.com/izabelpletsch</a></strong></p>
             </div>
         </aside>
         <article>
@@ -127,6 +136,15 @@
                     
             <h2 class="roxo">Formação Técnica</h2>   
             <p>Técnico em Informática, ETEC Martinho Di Ciero - 2017 a 2019</p>
+            
+            <h2 class="roxo">Demais Informações</h2>   
+            <p>
+                <ul>
+                    <li>Inglês Intermediário</li>
+                    <li>Espanhol Básico</li>
+                    <li>Pacote Office Avançado</li>
+                </ul>
+            </p>
 
             <h2 class="roxo">Experiência</h2>   
             <p>
